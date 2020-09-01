@@ -5,7 +5,7 @@ public class Header {
     private String version;
     private String sender;
     private String timestamp;
-    private String correlatiodId;
+    private String correlationId;
     private String producerId;
 
     public String getVersion() {
@@ -32,12 +32,12 @@ public class Header {
         this.timestamp = timestamp;
     }
 
-    public String getCorrelatiodId() {
-        return correlatiodId;
+    public String getCorrelationId() {
+        return correlationId;
     }
 
-    public void setCorrelatiodId(String correlatiodId) {
-        this.correlatiodId = correlatiodId;
+    public void setCorrelationId(String correlationId) {
+        this.correlationId = correlationId;
     }
 
     public String getProducerId() {

@@ -39,7 +39,7 @@ public class GenericProducer {
         Header header = new Header();
         header.setSender(getId());
         String cid = generateCorrelationId();
-        header.setCorrelatiodId(id);
+        header.setCorrelationId(id);
         header.setVersion("1.0");
         header.setProducerId(getId());
         header.setTimestamp("" + Calendar.getInstance().getTimeInMillis());
@@ -58,7 +58,7 @@ public class GenericProducer {
         Header header = new Header();
         header.setSender(getId());
         String cid = generateCorrelationId();
-        header.setCorrelatiodId(id);
+        header.setCorrelationId(id);
         header.setVersion("1.0");
         header.setProducerId(getId());
         header.setTimestamp("" + Calendar.getInstance().getTimeInMillis());
